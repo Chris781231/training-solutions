@@ -30,3 +30,6 @@ Store a note author's name, topic title and text. By 'getNoteText()' method, dis
 
 #### Books
 Set a book using the own constructor (author, title) then set the registration number using setter. Display the book's attributes.
+
+#### Store
+Set a store using the own constructor (only the product name, the initial stock is 0). Using two methods (store and dispatch) to change stock.
