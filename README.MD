@@ -20,5 +20,8 @@ Request some attributes of user's favorite song from the console such as band, t
 
 ### Methods
 
-### Client Class App
+#### Client Class App
 Using getters and setters set, modify and display the clients attributes.
+
+#### Note App
+Store a note author's name, topic title and text. By 'getNoteText()' method, display the note attributes.
