@@ -33,3 +33,9 @@ Set a book using the own constructor (author, title) then set the registration n
 
 #### Store
 Set a store using the own constructor (only the product name, the initial stock is 0). Using two methods (store and dispatch) to change stock.
+
+### UML, Objects are by read/write console
+
+#### Products
+Set product (name, price) by request the values from console and store it to object. Manipulate price using two methods.
+
