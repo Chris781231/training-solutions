@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ClientMain {
 
     public static void main(String[] args) {
+
         Client client = new Client();
         Scanner scanner = new Scanner(System.in);
 
@@ -24,5 +25,7 @@ public class ClientMain {
         System.out.println("Your name is " + client.name);
         System.out.println("Your year of birth is " + client.year);
         System.out.println("Your address is " + client.address);
+
     }
+
 }

@@ -14,3 +14,6 @@ Request name and email then write them out.
 
 #### Client Class
 Request name, year of birth and address and store in Client object. Write out the attributes to console for verification.
+
+#### Song App
+Request some attributes of user's favorite song from the console such as band, title and length. The app writes these attributes for verification.
