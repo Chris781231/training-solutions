@@ -42,3 +42,7 @@ Set product (name, price) by request the values from console and store it to obj
 #### BankAccounts
 Set two bankAccounts and manipulate balance (deposit, withdraw and transfer between two accounts);
 
+### Literals and local variables
+
+#### Literals and types
+Create variables and display them to the console with explanation of where they can be used and where they cannot.
