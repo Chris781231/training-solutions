@@ -46,3 +46,7 @@ Set two bankAccounts and manipulate balance (deposit, withdraw and transfer betw
 
 #### Literals and types
 Create variables and display them to the console with explanation of where they can be used and where they cannot.
+
+#### Distance
+Create a distance object with two attributes. One for the distance in km and one for the distance exactness. Display the attributes' values and the whole part of the distance value.
+
