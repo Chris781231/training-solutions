@@ -60,3 +60,7 @@ Request two times from the console then display both of them in seconds/minutes,
 
 #### Is divisible by 3
 Examination of divisibility by 3.
+
+#### Investment
+Request the amount of investment and the investment rate. Display the withdrawed money reduced by bank charges.
+  
