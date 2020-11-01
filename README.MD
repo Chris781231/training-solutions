@@ -57,3 +57,6 @@ Examples for statements.
 
 #### Time
 Request two times from the console then display both of them in seconds/minutes, comparison them and display the result in a particular format. 
+
+#### Is divisible by 3
+Examination of divisibility by 3.
