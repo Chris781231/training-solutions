@@ -63,4 +63,8 @@ Examination of divisibility by 3.
 
 #### Investment
 Request the amount of investment and the investment rate. Display the withdrawed money reduced by bank charges.
-  
+
+### Packages
+
+#### Greetings
+Create two classes in different packages. One has a main method from which it calls the sayHello() method of the other class.
