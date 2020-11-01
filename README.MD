@@ -55,4 +55,5 @@ Create a distance object with two attributes. One for the distance in km and one
 #### Statement
 Examples for statements.
 
-
+#### Time
+Request two times from the console then display both of them in seconds/minutes, comparison them and display the result in a particular format. 
