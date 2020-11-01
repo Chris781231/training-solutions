@@ -68,3 +68,8 @@ Request the amount of investment and the investment rate. Display the withdrawed
 
 #### Greetings
 Create two classes in different packages. One has a main method from which it calls the sayHello() method of the other class.
+
+### Java API
+
+#### String class
+Converts the text (string) to uppercase.
