@@ -50,3 +50,9 @@ Create variables and display them to the console with explanation of where they 
 #### Distance
 Create a distance object with two attributes. One for the distance in km and one for the distance exactness. Display the attributes' values and the whole part of the distance value.
 
+### Statements and commands
+
+#### Statement
+Examples for statements.
+
+
