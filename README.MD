@@ -73,3 +73,8 @@ Create two classes in different packages. One has a main method from which it ca
 
 #### String class
 Converts the text (string) to uppercase.
+
+### String type
+
+#### String operations
+It creates some String variable and operations with them. It displays the results to the console.
