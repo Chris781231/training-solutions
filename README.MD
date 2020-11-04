@@ -89,3 +89,8 @@ It creates an employee (name, date of birth /date-format/, begin employment/date
 
 #### Performance
 Stores and displays the performance of a particular artist.
+
+### Control Basics
+
+#### Control Basics
+Control Basics solutions
