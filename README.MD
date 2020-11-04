@@ -94,3 +94,6 @@ Stores and displays the performance of a particular artist.
 
 #### Control Basics
 Control Basics solutions
+
+#### Qualifier
+Requests a number then print out the number is greater or smaller than 100.
