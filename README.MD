@@ -78,3 +78,6 @@ Converts the text (string) to uppercase.
 
 #### String operations
 It creates some String variable and operations with them. It displays the results to the console.
+
+#### Registration datas verification
+It request user datas' such as username, password two times and email, then validate them.
