@@ -99,4 +99,7 @@ Control Basics solutions
 Requests a number then print out the number is greater or smaller than 100.
 
 #### Menu
-Creates a menu, requests a number from menu to control the flow. Display the result. 
+Creates a menu, requests a number from menu to control the flow. Display the result.
+
+#### Summary
+Requests 5 numbers and displays sum of them
