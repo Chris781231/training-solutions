@@ -28,10 +28,8 @@ public class Registration {
         boolean validPassword = uv.isValidPassword(password1, password2);
         boolean validEmail = uv.isValidEmail(email);
 
-        System.out.println("Username is valid: " + validUsername);
-        System.out.println("Password is valid: " + validPassword);
-        System.out.println("Email is valid: " + validEmail);
-
-
+        System.out.println(validUsername ? "Username is valid" : "Invalid username");
+        System.out.println(validPassword ? "Password is valid" : "Invalid password");
+        System.out.println(validEmail ? "Email is valid" : "Invalid email");
     }
 }

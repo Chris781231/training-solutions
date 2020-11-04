@@ -12,7 +12,7 @@ public class UserValidator {
 
     public boolean isValidEmail(String email) {
         int indexOfAt = email.indexOf('@');
-        int indexOfDot = email.indexOf('.');
+        int indexOfDot = email.indexOf('.', indexOfAt);
         boolean validAt = indexOfAt > 0;
         boolean validDot = (indexOfDot > (indexOfAt + 1)) && (indexOfDot < email.length() - 1);
         return validAt && validDot;
