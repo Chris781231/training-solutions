@@ -30,7 +30,7 @@ public class Registration {
 
         System.out.println("Username is valid: " + validUsername);
         System.out.println("Password is valid: " + validPassword);
-        System.out.println(validEmail);
+        System.out.println("Email is valid: " + validEmail);
 
 
     }
