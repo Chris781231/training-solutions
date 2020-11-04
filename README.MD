@@ -86,3 +86,6 @@ It request user datas' such as username, password two times and email, then vali
 
 #### Employee
 It creates an employee (name, date of birth /date-format/, begin employment/date-format). Then displays all the data.
+
+#### Performance
+Stores and displays the performance of a particular artist.
