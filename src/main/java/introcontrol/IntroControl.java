@@ -58,6 +58,8 @@ public class IntroControl {
             for (int i = a; i >= b; i--) {
                 System.out.println(i);
             }
+        } else {
+            System.out.println(a);
         }
     }
 
