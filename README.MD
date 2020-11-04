@@ -103,3 +103,6 @@ Creates a menu, requests a number from menu to control the flow. Display the res
 
 #### Summary
 Requests 5 numbers and displays sum of them
+
+#### Boating
+Requests how many people are want to boat and divides the boats between the groups.
