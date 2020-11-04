@@ -81,3 +81,8 @@ It creates some String variable and operations with them. It displays the result
 
 #### Registration datas verification
 It request user datas' such as username, password two times and email, then validate them.
+
+### Date and Time basics
+
+#### Employee
+It creates an employee (name, date of birth /date-format/, begin employment/date-format). Then displays all the data.
