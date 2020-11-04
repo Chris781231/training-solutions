@@ -97,3 +97,6 @@ Control Basics solutions
 
 #### Qualifier
 Requests a number then print out the number is greater or smaller than 100.
+
+#### Menu
+Creates a menu, requests a number from menu to control the flow. Display the result. 
