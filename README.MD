@@ -131,3 +131,6 @@ Different exercises' solutions.
 
 #### Capsules class
 Capsules class solution
+
+#### Books class
+Book class solution
