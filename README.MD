@@ -165,3 +165,8 @@ Week class's solution
 
 #### Bonus exercise 2
 Modify finalmodifier/Week.java. Declarate final variable then initialize in the constructor.
+
+### Math and Random classes
+
+#### Brainstorm
+Brainstorm exercises' solutions
