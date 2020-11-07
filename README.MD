@@ -141,5 +141,10 @@ In Capsule class stores the `getColors()` method's result in a different variabl
 #### Bonus exercise 2
 Bonus exercise 2 solution. Books class supplemented.
 
-### Employees
+### Debug
+
+#### Employees
 Employee, Company classes implements by UML. Tests these classes from CompanyTest class's main() method.
+
+#### Just positive
+Debug test solution
