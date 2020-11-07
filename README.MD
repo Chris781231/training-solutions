@@ -136,4 +136,7 @@ Capsules class solution
 Book class solution
 
 #### Bonus exercise 1
-In Capsule class stores the `getColors()` method's result in a different variable, then after the `clean()` method display the content of variable. 
+In Capsule class stores the `getColors()` method's result in a different variable, then after the `clean()` method display the content of variable.
+
+#### Bonus exercise 2
+Bonus exercise 2 solution. Books class supplemented.
