@@ -153,3 +153,9 @@ Debug test solution
 
 #### Gentleman
 Gentleman solution
+
+#### Circle/Cylinder calculator
+Circle and cylinder calculator classes' solutions
+
+#### Tax calculator
+TaxCalculator class's solution
