@@ -111,3 +111,8 @@ Requests how many people are want to boat and divides the boats between the grou
 
 #### Array handling
 Array handling solutions
+
+#### Search
+Implements two methods:
+- contains (int[] source, int itemToFind): looks for a value to include in the array. Return value is false or true.
+- find (int[] source, int itemToFind): find an exact index of value. Returns index value if included or '-1' if not.
