@@ -37,5 +37,16 @@ public class Capsules {
         System.out.println(capsules.removeFirst());
         System.out.println(capsules.removeLast());
         System.out.println(capsules.getColors());
+
+        for (int i = 0; i < 5; i++) {
+            capsules.addFirst("blue");
+            capsules.addLast("grey");
+            capsules.addLast("brown");
+        }
+
+        List<String> colors = capsules.getColors();
+        System.out.println(colors);
+        colors.clear();
+        System.out.println(capsules.getColors());
     }
 }
