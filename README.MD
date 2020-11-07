@@ -125,4 +125,9 @@ Different exercises' solutions.
 ### Arrays handling
 
 #### Arrays handling
-Different exercises' solutions. 
+Different exercises' solutions.
+
+### List
+
+#### Capsules class
+Capsules class solution
