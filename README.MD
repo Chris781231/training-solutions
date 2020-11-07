@@ -162,3 +162,6 @@ TaxCalculator class's solution
 
 #### Bonus exercise 1
 Week class's solution
+
+#### Bonus exercise 2
+Modify finalmodifier/Week.java. Declarate final variable then initialize in the constructor.

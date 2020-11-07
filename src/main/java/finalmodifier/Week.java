@@ -7,6 +7,12 @@ public class Week {
 
     public final static List<String> DAYS = Arrays.asList("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
 
+    public final int randomVariable;
+
+    public Week(int randomVariable) {
+        this.randomVariable = randomVariable;
+    }
+
 
     public static void main(String[] args) {
 
