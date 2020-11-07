@@ -7,6 +7,6 @@ public class CylinderCalculator {
     }
 
     public double calculateSurfaceArea(double r, double h) {
-        return 2 * r * CircleCalculator.PI * h;
+        return 2 * r * CircleCalculator.PI * h + 2 * r * r * CircleCalculator.PI;
     }
 }

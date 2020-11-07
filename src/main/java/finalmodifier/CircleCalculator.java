@@ -17,5 +17,6 @@ public class CircleCalculator {
 
         System.out.println(new CircleCalculator().calculatePerimeter(5));
         System.out.println(new CircleCalculator().calculateArea(5));
+        System.out.println(new CircleCalculator().calculatePerimeter(10));
     }
 }
