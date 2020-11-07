@@ -1,6 +1,6 @@
 package array;
 
-public class arrayMain {
+public class ArrayMain {
 
     public static void main(String[] args) {
 
