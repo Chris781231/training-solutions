@@ -148,3 +148,8 @@ Employee, Company classes implements by UML. Tests these classes from CompanyTes
 
 #### Just positive
 Debug test solution
+
+### Constant values
+
+#### Gentleman
+Gentleman solution
