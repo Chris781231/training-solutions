@@ -57,5 +57,9 @@ public class ArraysOfArraysMain {
 
         int[][] daysOfMonth = ArraysOfArraysMain.getValues();
         printArrayOfArrays(daysOfMonth);
+
+        int[] a = {1, 2, 3};
+
+
     }
 }

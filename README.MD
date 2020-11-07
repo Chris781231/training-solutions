@@ -114,10 +114,15 @@ Array handling solutions
 
 #### Search
 Implements two methods:
-- contains (int[] source, int itemToFind): looks for a value to include in the array. Return value is false or true.
-- find (int[] source, int itemToFind): find an exact index of value. Returns index value if included or '-1' if not.
+- `contains (int[] source, int itemToFind)`: looks for a value to include in the array. Return value is false or true.
+- `find (int[] source, int itemToFind)`: find an exact index of value. Returns index value if included or '-1' if not.
 
 ### Array of arrays
 
 #### Array of arrays
+Different exercises' solutions.
+
+### Arrays handling
+
+#### Arrays handling
 Different exercises' solutions. 
