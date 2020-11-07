@@ -159,3 +159,6 @@ Circle and cylinder calculator classes' solutions
 
 #### Tax calculator
 TaxCalculator class's solution
+
+#### Bonus exercise 1
+Week class's solution
