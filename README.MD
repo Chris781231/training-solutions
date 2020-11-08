@@ -187,3 +187,8 @@ How many objects solution.
 
 #### Arrays and Collections
 Arrays and collections solution
+
+### Introduction to the attributes usage
+
+#### Book class
+Book class solution
