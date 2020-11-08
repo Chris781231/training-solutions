@@ -195,3 +195,6 @@ Book class solution
 
 #### Person and Address classes
 Person and classes solution
+
+#### Bill and Item classes
+Bill and Item classes solution
