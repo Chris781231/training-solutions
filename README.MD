@@ -2,6 +2,9 @@
 
 ## Java Classes
 
+### Week 2 - project work
+Project Work solutions.
+
 ### Read and write console
 
 #### Calculator App
