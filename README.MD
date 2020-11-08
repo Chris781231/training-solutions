@@ -206,3 +206,8 @@ Task class solution
 
 #### Restaurant
 Restaurant class solution
+
+### Introduction to the usage of methods
+
+#### Employee
+Employee class solution
