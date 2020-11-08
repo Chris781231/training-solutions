@@ -203,3 +203,6 @@ Bill and Item classes solution
 
 #### Tasks
 Task class solution
+
+#### Restaurant
+Restaurant class solution
