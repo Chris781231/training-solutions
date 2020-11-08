@@ -33,6 +33,6 @@ public class Game {
             System.out.println(jack);
         }
 
-        System.out.println("The winner is: " + (joe.isAlive() ? "Joe" : "Jack"));
+        System.out.println("Winner: " + (joe.isAlive() ? joe : jack));
     }
 }
