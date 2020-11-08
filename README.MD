@@ -176,3 +176,8 @@ Role Play game solution
 
 #### Rounding
 Rounding Anomaly exercise's solution
+
+### Objects
+
+#### Objects
+Objects exercises' solutions
