@@ -198,3 +198,8 @@ Person and classes solution
 
 #### Bill and Item classes
 Bill and Item classes solution
+
+### Introduction to the usage of constructor
+
+#### Tasks
+Task class solution
