@@ -184,3 +184,6 @@ Objects exercises' solutions
 
 #### Count of objects
 How many objects solution.
+
+#### Arrays and Collections
+Arrays and collections solution
