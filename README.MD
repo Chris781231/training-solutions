@@ -173,3 +173,6 @@ Brainstorm exercises' solutions
 
 #### Game
 Role Play game solution
+
+#### Rounding
+Rounding Anomaly exercise's solution
