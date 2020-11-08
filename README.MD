@@ -181,3 +181,6 @@ Rounding Anomaly exercise's solution
 
 #### Objects
 Objects exercises' solutions
+
+#### Count of objects
+How many objects solution.
