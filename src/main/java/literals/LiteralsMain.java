@@ -21,9 +21,14 @@ public class LiteralsMain {
 
         // Big number
         long big = 3_244_444_444L;
+        System.out.println(big);
 
         // Character coding
         String s = "árvíztűrőtükörfúrógép";
         System.out.println(s);
+
+        // String as an object
+        String word = "title".toUpperCase();
+        System.out.println(word);
     }
 }

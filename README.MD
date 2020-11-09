@@ -239,3 +239,6 @@ Big number solution
 
 #### Character coding
 Character coding solution
+
+#### String as an object
+String as an object solution
