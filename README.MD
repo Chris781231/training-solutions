@@ -225,3 +225,8 @@ References solutions
 
 #### Social network
 Social network solution
+
+### Literals
+
+#### Concatenation
+Concatenation solutions
