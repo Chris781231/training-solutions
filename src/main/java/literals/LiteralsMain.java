@@ -19,6 +19,7 @@ public class LiteralsMain {
         quotient = 3.0 / 4;               // or (3 / 4.0)
         System.out.println(quotient);
 
-
+        // Big number
+        long big = 3_244_444_444L;
     }
 }
