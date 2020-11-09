@@ -21,5 +21,8 @@ public class LiteralsMain {
 
         // Big number
         long big = 3_244_444_444L;
+
+        // Character coding
+        String word = "title".toUpperCase();
     }
 }

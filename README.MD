@@ -236,3 +236,6 @@ Division solution
 
 #### Big number
 Big number solution
+
+#### Character coding
+Character coding solution
