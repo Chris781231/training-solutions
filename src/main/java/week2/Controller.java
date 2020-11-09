@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Controller {
 
     private Office office;
-    private Scanner scanner = new Scanner(System.in);
 
     public void readOffice() {
+
         office = new Office();
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("How many meeting rooms do you want to record? ");
         int countOfMeetingRooms = scanner.nextInt();
@@ -30,6 +31,7 @@ public class Controller {
     }
 
     public void printOffice() {
+
         System.out.println("1. Meeting rooms in order");
         System.out.println("2. Meeting rooms in reverse order");
         System.out.println("3. Every second meeting rooms");
@@ -40,6 +42,9 @@ public class Controller {
     }
 
     public void runOffice() {
+
+        Scanner scanner = new Scanner(System.in);
+
         System.out.print(">>> ");
         int menuItem = scanner.nextInt();
         scanner.nextLine();
