@@ -23,6 +23,7 @@ public class LiteralsMain {
         long big = 3_244_444_444L;
 
         // Character coding
-        String word = "title".toUpperCase();
+        String s = "árvíztűrőtükörfúrógép";
+        System.out.println(s);
     }
 }
