@@ -245,3 +245,8 @@ String as an object solution
 
 #### Number as a binary string
 Number as a binary string solution
+
+### Primitive Types
+
+#### Conversion to binary number system
+Conversion to binary number system
