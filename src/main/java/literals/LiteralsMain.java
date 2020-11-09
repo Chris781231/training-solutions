@@ -30,5 +30,9 @@ public class LiteralsMain {
         // String as an object
         String word = "title".toUpperCase();
         System.out.println(word);
+
+        // Number as a binary string
+        System.out.println(Integer.toBinaryString(1));
+        System.out.println(Integer.toBinaryString(-2));
     }
 }

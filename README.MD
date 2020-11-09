@@ -242,3 +242,6 @@ Character coding solution
 
 #### String as an object
 String as an object solution
+
+#### Number as a binary string
+Number as a binary string solution
