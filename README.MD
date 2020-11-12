@@ -2,7 +2,12 @@
 
 ## Java Classes
 
-### Week 2 - project work
+### Week02
+
+#### Phone App
+Phone solution
+
+#### Project work
 Project Work solutions.
 
 ### Week 3 - PhoneParser
