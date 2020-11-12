@@ -10,6 +10,9 @@ Phone solution
 #### Product App
 Product solution
 
+#### InputNames App
+InputNames solution
+
 #### Project work
 Project Work solutions.
 
