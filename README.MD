@@ -264,3 +264,8 @@ Number as a binary string solution
 
 #### Conversion to binary number system
 Conversion to binary number system
+
+### Enum type
+
+#### Days of week
+Days of week solution
