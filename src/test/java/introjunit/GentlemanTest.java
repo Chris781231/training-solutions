@@ -1,8 +1,8 @@
-import introjunit.Gentleman;
-import org.junit.Test;
+package introjunit;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.junit.Assert.assertThat;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GentlemanTest {
 
@@ -16,12 +16,12 @@ public class GentlemanTest {
         String result = gentleman.sayHello("Charlie");
 
         // Then
-        assertThat(result, equalTo("Hello, Charlie"));
+        assertEquals("Hello, Charlie", result);
     }
 
     @Test
     public void testSayHelloNull() {
 
-        assertThat(new Gentleman().sayHello(), equalTo("Hello, Anonymous"));
+        assertEquals("Hello, Anonymous", new Gentleman().sayHello());
     }
 }
