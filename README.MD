@@ -293,3 +293,8 @@ Dataloss solution
 
 #### WhichType
 WhichType solution
+
+### Numbers
+
+#### Circle
+Circle solution
