@@ -290,3 +290,6 @@ Operators solutions
 
 #### Dataloss
 Dataloss solution
+
+#### WhichType
+WhichType solution
