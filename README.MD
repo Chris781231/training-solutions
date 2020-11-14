@@ -285,3 +285,8 @@ Units solution
 
 #### Operators
 Operators solutions
+
+### Type conversation
+
+#### Dataloss
+Dataloss solution
