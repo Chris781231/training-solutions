@@ -280,3 +280,8 @@ Days of week solution
 
 #### Units
 Units solution
+
+### Operators
+
+#### Operators
+Operators solutions
