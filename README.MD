@@ -277,3 +277,6 @@ Conversion to binary number system
 
 #### Days of week
 Days of week solution
+
+#### Units
+Units solution
