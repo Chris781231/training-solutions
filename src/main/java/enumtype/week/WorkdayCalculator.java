@@ -11,17 +11,9 @@ public class WorkdayCalculator {
 
         for (int i = 0; i < numberOfDays; i++) {
             types.add(actualDay.getDayType());
-            actualDay = nextDay(actualDay);
+            actualDay = Day.FRIDAY.nextDay(actualDay);
         }
 
         return types;
-    }
-
-    private Day nextDay(Day actualDay) {
-        if (actualDay.ordinal() == Day.values().length - 1) {
-            return Day.values()[0];
-        } else {
-            return Day.values()[actualDay.ordinal() + 1];
-        }
     }
 }

@@ -18,4 +18,12 @@ public enum Day {
     public DayType getDayType() {
         return dayType;
     }
+
+    public final Day nextDay(Day actualDay) {
+        if (actualDay.ordinal() == Day.values().length - 1) {
+            return Day.values()[0];
+        } else {
+            return Day.values()[actualDay.ordinal() + 1];
+        }
+    }
 }
