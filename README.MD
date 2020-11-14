@@ -298,3 +298,6 @@ WhichType solution
 
 #### Circle
 Circle solution
+
+#### Mathematic example
+Mathematic example solution
