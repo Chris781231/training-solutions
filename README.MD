@@ -304,3 +304,7 @@ Mathematic example solution
 
 ### JUnit
 JUnit solution 
+
+### Control structures and selections
+
+#### Greeting depending on the time of day
