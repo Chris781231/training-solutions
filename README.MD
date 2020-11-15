@@ -326,3 +326,6 @@ JUnit solution
 
 #### Dictionary
 'Dictionary' solution
+
+#### Pi
+'Pi' solution
