@@ -329,3 +329,8 @@ JUnit solution
 
 #### Pi
 'Pi' solution
+
+### Advanced control
+
+#### findDuplicates() method
+`findDuplicated()` method solution
