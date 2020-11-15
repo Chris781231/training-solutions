@@ -337,3 +337,8 @@ JUnit solution
 
 #### CSV validation
 'CSV validation' solution
+
+### Exception handling
+
+#### Patient
+'Patient' solution
