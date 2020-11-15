@@ -334,3 +334,6 @@ JUnit solution
 
 #### findDuplicates() method
 `findDuplicated()` method solution
+
+#### CSV validation
+'CSV validation' solution
