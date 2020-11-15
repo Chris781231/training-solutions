@@ -5,7 +5,7 @@ public class WithoutAccents {
 
     public char convertToCharWithoutAccents(char character) {
         switch (character) {
-            // Small caps
+            // Lowercase
             case 'á':
                 return 'a';
             case 'é':
@@ -21,7 +21,7 @@ public class WithoutAccents {
             case 'ű':
                 return 'u';
 
-            // Large caps
+            // Uppercase
             case 'Á':
                 return 'A';
             case 'É':
