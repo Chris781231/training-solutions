@@ -308,3 +308,7 @@ JUnit solution
 ### Control structures and selections
 
 #### Greeting depending on the time of day
+'Greetings depending on the time of day' solution
+
+#### Days of Month
+'Days of Month' solution
