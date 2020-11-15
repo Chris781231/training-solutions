@@ -321,3 +321,8 @@ JUnit solution
 
 #### Accents
 'Accents' solution 
+
+### Cycles
+
+#### Dictionary
+'Dictionary' solution
