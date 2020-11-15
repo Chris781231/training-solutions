@@ -315,3 +315,6 @@ JUnit solution
 
 #### Day of Weeks
 'Day of Weeks' solution
+
+### Consonant
+'Consonant' solution
