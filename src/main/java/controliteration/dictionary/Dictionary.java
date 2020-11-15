@@ -8,7 +8,7 @@ public class Dictionary {
     private List<DictionaryItem> dictionaryItems = new ArrayList<>();
 
     public void addItem(String word, List<String> translations) {
-        if (dictionaryItems.size() == 0) {
+        if (dictionaryItems.isEmpty()) {
             dictionaryItems.add(new DictionaryItem(word, translations));
         } else {
             for (DictionaryItem item : dictionaryItems) {
