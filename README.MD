@@ -312,3 +312,6 @@ JUnit solution
 
 #### Days of Month
 'Days of Month' solution
+
+#### Day of Weeks
+'Day of Weeks' solution
