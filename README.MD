@@ -316,5 +316,8 @@ JUnit solution
 #### Day of Weeks
 'Day of Weeks' solution
 
-### Consonant
+#### Consonant
 'Consonant' solution
+
+#### Accents
+'Accents' solution 
