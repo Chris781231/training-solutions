@@ -355,3 +355,6 @@ JUnit solution
 
 #### Employee
 'Employee' solution
+
+#### Name concatenation
+Name concatenation ('Stringconcat') solution
