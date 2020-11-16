@@ -347,3 +347,6 @@ JUnit solution
 
 #### Strings
 'Strings' solution
+
+#### Pets
+'Pets' solution

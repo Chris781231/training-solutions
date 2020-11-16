@@ -1,4 +1,4 @@
-package stringbasic;
+package stringbasic.stringbasic;
 
 public class StringCreator {
 

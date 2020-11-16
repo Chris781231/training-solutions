@@ -1,4 +1,4 @@
-package stringbasic;
+package stringbasic.stringbasic;
 
 import org.junit.jupiter.api.Test;
 
