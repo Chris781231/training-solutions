@@ -342,3 +342,8 @@ JUnit solution
 
 #### Patient
 'Patient' solution
+
+### String basics
+
+#### Strings
+'Strings' solution
