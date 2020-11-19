@@ -368,3 +368,6 @@ Name concatenation ('Stringconcat') solution
 
 #### Filenames management
 'FileNameManipulator' solution
+
+#### URL Manager
+'UrlManager' solution
