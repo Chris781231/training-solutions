@@ -6,13 +6,13 @@ public enum Title {
     DR("Dr."),
     PROF("Prof.");
 
-    private String title;
+    private final String titleName;
 
     Title(String title) {
-        this.title = title;
+        this.titleName = title;
     }
 
     public String getTitle() {
-        return title;
+        return titleName;
     }
 }
