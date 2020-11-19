@@ -384,3 +384,6 @@ Name concatenation ('Stringconcat') solution
 
 #### String scanning
 'StringScanner' solution
+
+### File scanner
+'BucketList' solution
