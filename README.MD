@@ -379,3 +379,8 @@ Name concatenation ('Stringconcat') solution
 
 #### Palindrome
 'Palindrome' solution
+
+### Scanner
+
+#### String scanning
+'StringScanner' solution
