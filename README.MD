@@ -27,6 +27,11 @@ Position solution
 #### PhoneParser
 PhoneParser solution
 
+### Week04
+
+#### Project work
+Project Work ('ClassRecords') solution
+
 ### Read and write console
 
 #### Calculator App
@@ -358,3 +363,8 @@ JUnit solution
 
 #### Name concatenation
 Name concatenation ('Stringconcat') solution
+
+### String methods
+
+#### Filenames management
+'FileNameManipulator' solution
