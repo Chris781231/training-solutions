@@ -371,3 +371,8 @@ Name concatenation ('Stringconcat') solution
 
 #### URL Manager
 'UrlManager' solution
+
+### StringBuilder
+
+#### Name concatenation
+'NameBuilder' solution
