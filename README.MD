@@ -376,3 +376,6 @@ Name concatenation ('Stringconcat') solution
 
 #### Name concatenation
 'NameBuilder' solution
+
+#### Palindrome
+'Palindrome' solution
