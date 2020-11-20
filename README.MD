@@ -413,3 +413,8 @@ Name concatenation ('Stringconcat') solution
 
 #### Transactions
 'Transaction' solution
+
+### Edge value
+
+#### Best of Salesperson
+'Salesperson' solution
