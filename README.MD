@@ -389,3 +389,6 @@ Name concatenation ('Stringconcat') solution
 
 #### Bucket list
 'BucketList' solution
+
+#### Library
+'Library' solution
