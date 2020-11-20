@@ -403,3 +403,6 @@ Name concatenation ('Stringconcat') solution
 #### Salesperson
 'Salesperson' solution
 
+#### All of crediting
+'Transaction' solution
+
