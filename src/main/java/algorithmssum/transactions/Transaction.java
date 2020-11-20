@@ -1,4 +1,4 @@
-package algorithmsum;
+package algorithmssum.transactions;
 
 public class Transaction {
     private final String accountNumber;

@@ -1,5 +1,8 @@
-package algorithmsum;
+package algorithmssum.transactions;
 
+import algorithmssum.transactions.Transaction;
+import algorithmssum.transactions.TransactionOperation;
+import algorithmssum.transactions.TransactionSumCalculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
