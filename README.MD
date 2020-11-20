@@ -398,3 +398,8 @@ Name concatenation ('Stringconcat') solution
 #### PrintFormat
 'PrintFormat' solution
 
+### Summary Algorithm
+
+#### Salesperson
+'Salesperson' solution
+
