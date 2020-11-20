@@ -406,3 +406,8 @@ Name concatenation ('Stringconcat') solution
 #### All of crediting
 'Transaction' solution
 
+### Counting algorithm
+
+#### Bankaccount
+'BankAccount' solution
+
