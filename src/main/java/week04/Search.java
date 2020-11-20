@@ -3,11 +3,11 @@ package week04;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class Search {
 
     public static void main(String[] args) {
 
-        Main main = new Main();
+        Search main = new Search();
         System.out.println(main.getIndexesOfChar("Himalája", 'a'));
     }
 
