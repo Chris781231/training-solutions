@@ -72,13 +72,12 @@ public class Student {
         return super.hashCode();
     }
 
-    // TODO: 2020. 11. 16. Átírni StringBuilder használatával
     @Override
     public String toString() {
-        String output = name + " marks: ";
+        StringBuilder output = new StringBuilder(name).append(" marks: ");
         for (Mark mark : marks) {
-            output += mark.getSubject().getSubjectName() + ": " + mark;
+            output.append(mark.getSubject().getSubjectName()).append(": ").append(mark);
         }
-        return output; // Kovács marks: matematika: excellent(5)
+        return output.toString(); // Kovács marks: matematika: excellent(5)
     }
 }

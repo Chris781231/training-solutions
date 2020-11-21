@@ -4,10 +4,10 @@ import java.util.*;
 
 public class SchoolRecordsController {
 
-    Scanner scanner = new Scanner(System.in);
     private final ClassRecords classRecord = new ClassRecords("Fifth Grade A", new Random());
     private final List<Subject> subjects = new ArrayList<>();
     private final List<Tutor> tutors = new ArrayList<>();
+    Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -16,13 +16,11 @@ public class SchoolRecordsController {
         schoolRecordsController.initSchool();
         schoolRecordsController.printMenu();
         schoolRecordsController.runMenu();
-
     }
-
 
     private void initSchool() {
         Subject geography = new Subject("Földrajz");
-        Subject math = new Subject("Mathematika");
+        Subject math = new Subject("Matematika");
         Subject biology = new Subject("Biológia");
         Subject music = new Subject("Zene");
         Subject physics = new Subject("Fizika");
@@ -78,7 +76,6 @@ public class SchoolRecordsController {
                     listStudentNames();
                     break;
                 case "2":
-
                     findStudentByName();
                     break;
                 case "3":
@@ -111,6 +108,57 @@ public class SchoolRecordsController {
             printMenu();
             menuItem = scanner.nextLine();
         }
+    }
+
+    public List<String> getTutorNames() {
+        List<String> tutorNames = new ArrayList<>();
+        for (Tutor tutor : tutors) {
+            tutorNames.add(tutor.getName());
+        }
+        return tutorNames;
+    }
+
+    public List<String> getSubjectNames(Tutor tutor) {
+        List<String> subjectNames = new ArrayList<>();
+        for (Subject subject : tutor.getTaughtSubjects()) {
+            subjectNames.add(subject.getSubjectName());
+        }
+        return subjectNames;
+    }
+
+    public List<Integer> getMarkTypes() {
+        List<Integer> markTypes = new ArrayList<>();
+        for (MarkType markType : MarkType.values()) {
+            markTypes.add(markType.getValue());
+        }
+        return markTypes;
+    }
+
+    public Tutor findTutorByName(String name) {
+        for (Tutor tutor : tutors) {
+            if (tutor.getName().equals(name)) {
+                return tutor;
+            }
+        }
+        return null;
+    }
+
+    public Subject findSubjectByName(String name, Tutor tutor) {
+        for (Subject subject : tutor.getTaughtSubjects()) {
+            if (subject.getSubjectName().equals(name)) {
+                return subject;
+            }
+        }
+        return null;
+    }
+
+    public MarkType findMarkTypeByValue(int value) {
+        for (MarkType markType : MarkType.values()) {
+            if (markType.getValue() == value) {
+                return markType;
+            }
+        }
+        return null;
     }
 
     private void listStudentNames() {
@@ -147,26 +195,80 @@ public class SchoolRecordsController {
     }
 
     private void repetition() {
-        MarkType randomMarkType = MarkType.values()[new Random().nextInt(MarkType.values().length)];
-        Subject randomSubject = subjects.get(new Random().nextInt(subjects.size()));
-        Tutor randomTutor = tutors.get(new Random().nextInt(tutors.size()));
+        if (hasTutorAndSubject()) {
+            try {
+                String randomStudentName = classRecord.repetition().getName();
+                Tutor tutor = null;
+                Subject subject = null;
+                MarkType markType = null;
+                System.out.printf("Feleltetett diák: %s\n", randomStudentName);
 
-        try {
-            String randomStudent = classRecord.repetition().getName();
+                tutor = getTutorToRepetition();
+                subject = getSubjectToRepetition(tutor);
+                markType = getMarkTypeToRepetition();
 
-            classRecord.findStudentByName(randomStudent).grading(new Mark(randomMarkType, randomSubject, randomTutor));
-            System.out.println("\n" + randomStudent + " feleltetve.\n" +
-                    "Tárgy: " + randomSubject.getSubjectName() + "\n" +
-                    "Érdemjegy: " + randomMarkType + "\n");
-        } catch (IllegalStateException ise) {
-            System.out.println("\nNincs diák az osztályban!\n");
+                classRecord.findStudentByName(randomStudentName).grading(new Mark(markType, subject, tutor));
+                System.out.printf("\n%s feleltetve.\nÉrtékelő tanár: %s\nTantárgy: %s\nÉrdemjegy: %s\n\n",
+                        randomStudentName, tutor.getName(), subject.getSubjectName(), markType);
+            } catch (IllegalStateException ise) {
+                System.out.println("\nNincs diák az osztályban!\n");
+            }
         }
+    }
+
+    private Tutor getTutorToRepetition() {
+        Tutor tutor = null;
+
+        do {
+            System.out.printf("Értékelő tanár neve %s: ", getTutorNames());
+            String tutorName = scanner.nextLine();
+            if (getTutorNames().contains(tutorName)) {
+                tutor = findTutorByName(tutorName);
+            } else {
+                System.out.println("Nincs tanár ezen a néven!");
+            }
+        } while(tutor == null || !getTutorNames().contains(tutor.getName()));
+
+        return tutor;
+    }
+
+    private Subject getSubjectToRepetition(Tutor tutor) {
+        Subject subject = null;
+
+        do {
+            System.out.printf("Tantárgy %s: ", getSubjectNames(tutor));
+            String subjectName = scanner.nextLine();
+            if (getSubjectNames(tutor).contains(subjectName)) {
+                subject = findSubjectByName(subjectName, tutor);
+            } else {
+                System.out.println(tutor.getName() + " nem értékelhet ebben a tantárgyban!");
+            }
+        } while(subject == null || !getSubjectNames(tutor).contains(subject.getSubjectName()));
+
+        return subject;
+    }
+
+    private MarkType getMarkTypeToRepetition() {
+        MarkType markType = null;
+
+        do {
+            int markTypeValue = 0;
+            System.out.printf("Osztályzat %s: ", getMarkTypes());
+            try {
+                markTypeValue = Integer.parseInt(scanner.nextLine());
+            } catch(NumberFormatException nfe) {
+
+            }
+            markType = findMarkTypeByValue(markTypeValue);
+        } while(markType == null || !getMarkTypes().contains(markType.getValue()));
+
+        return markType;
     }
 
     public void calculateClassAverage() {
         try {
             System.out.println("\nOsztályátlag: " + classRecord.calculateClassAverage() + "\n");
-        } catch(ArithmeticException ae) {
+        } catch (ArithmeticException ae) {
             System.out.println("\nNincs diák az osztályban! Az átlagszámítás megszakadt!\n");
         }
     }
@@ -233,7 +335,26 @@ public class SchoolRecordsController {
         classRecord.addStudent(new Student(studentNames[2]));
 
         for (int i = 0; i < 20; i++) {
-            repetition();
+            String randomStudentName = classRecord.repetition().getName();
+            MarkType randomMarkType = MarkType.values()[new Random().nextInt(MarkType.values().length)];
+            Subject randomSubject = subjects.get(new Random().nextInt(subjects.size()));
+            Tutor randomTutor = tutors.get(new Random().nextInt(tutors.size()));
+
+            classRecord.findStudentByName(randomStudentName).grading(new Mark(randomMarkType, randomSubject, randomTutor));
         }
+    }
+
+    private boolean hasTutorAndSubject() {
+        boolean hasTutorAndSubject = true;
+        if (tutors.isEmpty()) {
+            System.out.println("Nincs tanár az iskolában!");
+            hasTutorAndSubject = false;
+        }
+        if (subjects.isEmpty()) {
+            System.out.println("Nincs oktatott tantárgy!");
+            hasTutorAndSubject = false;
+        }
+        return hasTutorAndSubject;
+
     }
 }

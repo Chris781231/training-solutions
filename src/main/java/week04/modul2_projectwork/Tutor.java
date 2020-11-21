@@ -16,6 +16,10 @@ public class Tutor {
         return name;
     }
 
+    public List<Subject> getTaughtSubjects() {
+        return taughtSubjects;
+    }
+
     public boolean tutorTeachingSubject(Subject subject) {
         return taughtSubjects.contains(subject);
     }

@@ -104,21 +104,20 @@ public class ClassRecords {
         return students.get(rnd.nextInt(students.size()));
     }
 
-    // TODO: 2020. 11. 18. Átírni StringBuilder használatával 
     public String listStudentNames() {
         if (students.isEmpty()) {
             throw new IllegalStateException("No students in the class! Listing aborted!");
         }
 
-        String studentNames = "";
+        StringBuilder studentNames = new StringBuilder();
         for (Student student : students) {
-            if (studentNames.equals("")) {
-                studentNames += student.getName();
+            if (studentNames.isEmpty()) {
+                studentNames.append(student.getName());
             } else {
-                studentNames += ", " + student.getName();
+                studentNames.append(", ").append(student.getName());
             }
         }
-        return studentNames;
+        return studentNames.toString();
     }
 
     public List<StudyResultByName> listStudyResults() {
