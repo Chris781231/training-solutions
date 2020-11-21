@@ -1,4 +1,4 @@
-package week04.modul2_projectwork;
+package schoolrecords;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package week04.modul2_projectwork;
+package schoolrecords;
 
 
 import org.junit.jupiter.api.BeforeEach;

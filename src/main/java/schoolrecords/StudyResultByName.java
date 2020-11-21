@@ -1,4 +1,4 @@
-package week04.modul2_projectwork;
+package schoolrecords;
 
 public class StudyResultByName {
 

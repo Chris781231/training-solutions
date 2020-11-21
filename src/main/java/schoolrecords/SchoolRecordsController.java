@@ -1,4 +1,4 @@
-package week04.modul2_projectwork;
+package schoolrecords;
 
 import java.util.*;
 
@@ -197,19 +197,16 @@ public class SchoolRecordsController {
     private void repetition() {
         if (hasTutorAndSubject()) {
             try {
-                String randomStudentName = classRecord.repetition().getName();
-                Tutor tutor = null;
-                Subject subject = null;
-                MarkType markType = null;
-                System.out.printf("Feleltetett diák: %s\n", randomStudentName);
+                Student randomStudent = classRecord.repetition();
+                System.out.printf("Feleltetett diák: %s\n", randomStudent.getName());
 
-                tutor = getTutorToRepetition();
-                subject = getSubjectToRepetition(tutor);
-                markType = getMarkTypeToRepetition();
+                Tutor tutor = getTutorToRepetition();
+                Subject subject = getSubjectToRepetition(tutor);
+                MarkType markType = getMarkTypeToRepetition();
 
-                classRecord.findStudentByName(randomStudentName).grading(new Mark(markType, subject, tutor));
+                randomStudent.grading(new Mark(markType, subject, tutor));
                 System.out.printf("\n%s feleltetve.\nÉrtékelő tanár: %s\nTantárgy: %s\nÉrdemjegy: %s\n\n",
-                        randomStudentName, tutor.getName(), subject.getSubjectName(), markType);
+                        randomStudent.getName(), tutor.getName(), subject.getSubjectName(), markType);
             } catch (IllegalStateException ise) {
                 System.out.println("\nNincs diák az osztályban!\n");
             }
@@ -257,7 +254,7 @@ public class SchoolRecordsController {
             try {
                 markTypeValue = Integer.parseInt(scanner.nextLine());
             } catch(NumberFormatException nfe) {
-
+                System.out.println("Nincs ilyen osztályzat!");
             }
             markType = findMarkTypeByValue(markTypeValue);
         } while(markType == null || !getMarkTypes().contains(markType.getValue()));
