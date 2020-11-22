@@ -32,6 +32,9 @@ Operation solution
 
 ### Week04
 
+#### NumberGuesser
+NumberGuesser solution
+
 #### Project work
 Project Work ('ClassRecords') solution
 
