@@ -427,3 +427,6 @@ Name concatenation ('Stringconcat') solution
 
 #### Best of Salesperson
 'Salesperson' solution
+
+#### Oldest trainer
+'Trainer' solution
