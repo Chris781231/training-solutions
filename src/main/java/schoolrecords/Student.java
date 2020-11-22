@@ -78,6 +78,6 @@ public class Student {
         for (Mark mark : marks) {
             output.append(mark.getSubject().getSubjectName()).append(": ").append(mark);
         }
-        return output.toString(); // Kovács marks: matematika: excellent(5)
+        return output.toString();
     }
 }

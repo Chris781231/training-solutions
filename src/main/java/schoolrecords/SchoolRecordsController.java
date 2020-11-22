@@ -191,7 +191,11 @@ public class SchoolRecordsController {
     private void removeStudentByName() {
         System.out.print("\nDiák neve: ");
         String name = scanner.nextLine();
-        System.out.println(classRecord.removeStudent(new Student(name)) ? "Diák törölve." : "\nNem szerepel ilyen nevű diák.\n");
+        System.out.print("Megerősítésképpen írd be újra a nevét: ");
+        String nameConfirm = scanner.nextLine();
+        if (name.equals(nameConfirm)) {
+            System.out.println(classRecord.removeStudent(new Student(name)) ? "Diák törölve." : "\nNem szerepel ilyen nevű diák.\n");
+        }
     }
 
     private void repetition() {
@@ -246,7 +250,7 @@ public class SchoolRecordsController {
     }
 
     private MarkType getMarkTypeToRepetition() {
-        MarkType markType = null;
+        MarkType markType;
 
         do {
             int markTypeValue = 0;
