@@ -430,3 +430,6 @@ Name concatenation ('Stringconcat') solution
 
 #### Oldest trainer
 'Trainer' solution
+
+#### Biggest Number
+'IntegerMaxCalculator' solution
