@@ -9,9 +9,11 @@ public class Search {
 
         Search main = new Search();
         System.out.println(main.getIndexesOfChar("Himalája", 'a'));
+        System.out.println(main.getPositionsOfChars("aaaa", "aa"));
+        System.out.println(main.getPositionsOfChars("aaaa", "aaa"));
     }
 
-    List<Integer> getIndexesOfChar(String str, char c) {
+    public List<Integer> getIndexesOfChar(String str, char c) {
         List<Integer> result = new ArrayList<>();
 
         int fromIndex = 0;
@@ -21,6 +23,18 @@ public class Search {
             fromIndex = indexOfChar + 1;
         }
 
+        return result;
+    }
+
+    public List<Integer> getPositionsOfChars(String base, String part) {
+        List<Integer> result = new ArrayList<>();
+        int startIndex = 0;
+        int index = 0;
+
+        while ((index = base.indexOf(part, startIndex)) >= 0) {
+            result.add(index);
+            startIndex = ++index;
+        }
         return result;
     }
 }

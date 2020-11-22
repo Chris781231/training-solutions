@@ -35,6 +35,9 @@ Operation solution
 #### NumberGuesser
 NumberGuesser solution
 
+#### Search
+Search solution
+
 #### Project work
 Project Work ('ClassRecords') solution
 
