@@ -444,3 +444,8 @@ Name concatenation ('Stringconcat') solution
 
 #### Transferring transactions to the bank accounts
 'TransactionExecutor' solution
+
+### Recursion
+
+#### Compute factorial with recursion
+'Factorial' solution
