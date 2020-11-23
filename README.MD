@@ -438,3 +438,6 @@ Name concatenation ('Stringconcat') solution
 
 #### Large amount bank accounts
 'BankAccount' solution
+
+#### Large amount debit
+'Transaction' solution
