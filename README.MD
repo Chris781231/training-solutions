@@ -441,3 +441,6 @@ Name concatenation ('Stringconcat') solution
 
 #### Large amount debit
 'Transaction' solution
+
+#### Transferring transactions to the bank accounts
+'TransactionExecutor' solution
