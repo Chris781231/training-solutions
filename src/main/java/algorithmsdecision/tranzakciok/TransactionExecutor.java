@@ -11,11 +11,11 @@ public class TransactionExecutor {
         for (Transaction transaction : transactions) {
             BankAccount account = findBankAccount(transaction.getAccountNumber(), accounts);
 
-            if (transaction.isCredit()) {
+            if (account != null && transaction.isCredit()) {
                 account.deposit(transaction.getAmount());
                 transaction.setTransactionStatus(TransactionStatus.SUCCEEDED);
             } else {
-                if (account.withdraw(transaction.getAmount())) {
+                if (account != null && account.withdraw(transaction.getAmount())) {
                     transaction.setTransactionStatus(TransactionStatus.SUCCEEDED);
                 } else {
                     transaction.setTransactionStatus(TransactionStatus.PENDING);

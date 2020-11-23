@@ -13,8 +13,8 @@ public class BankAccount {
     }
 
     public boolean withdraw(int amount) {
-        boolean result = false;
-        if (result = (balance >= amount)) {
+        boolean result = (balance >= amount);
+        if (result) {
             balance -= amount;
         }
         return result;
@@ -25,15 +25,15 @@ public class BankAccount {
         return true;
     }
 
-    public String getNameOfOwner() {
-        return nameOfOwner;
-    }
-
     public String getAccountNumber() {
         return accountNumber;
     }
 
     public int getBalance() {
         return balance;
+    }
+
+    public String getNameOfOwner() {
+        return nameOfOwner;
     }
 }
