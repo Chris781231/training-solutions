@@ -433,3 +433,8 @@ Name concatenation ('Stringconcat') solution
 
 #### Biggest Number
 'IntegerMaxCalculator' solution
+
+### Decision algorithm
+
+#### Large amount bank accounts
+'BankAccount' solution
