@@ -501,3 +501,9 @@ java.test.javabeans.ember.HumanTest
 java.main.methodstructure.bodymass.BodyMass
 java.main.methodstructure.bodymass.BmiCategory
 java.test.methodstructure.bodymass.BodyMassTest
+
+#### Pendrives class
+java.main.methodstructure.pendrives.Pendrive
+java.main.methodstructure.pendrives.Pendrives
+java.test.methodstructure.pendrives.PendriveTest
+java.test.methodstructure.pendrives.PendrivesTest
