@@ -490,3 +490,7 @@ CelestialCoordinates.java
 #### Dog class
 java.main.javabeans.kutya.Dog.java
 java.test.javabeans.kutya.DogTest.java
+
+#### Human class
+java.main.javabeans.ember.Human.java
+java.test.javabeans.ember.HumanTest.java
