@@ -1,45 +1,47 @@
 # Training Solutions
 
-## Java Classes
+## Week02
 
-### Week02
-
-#### Phone App
+### Phone App
 Phone solution
 
-#### Product App
+### Product App
 Product solution
 
-#### InputNames App
+### InputNames App
 InputNames solution
 
-#### Languages
+### Languages
 Languages solution
 
-#### Project work
+### Project work
 Project Work solutions.
 
-### Week03
+## Week03
 
-#### Position
+### Position
 Position solution
 
-#### PhoneParser
+### PhoneParser
 PhoneParser solution
 
-#### Operation
+### Operation
 Operation solution
 
-### Week04
+## Week04
 
-#### NumberGuesser
+### NumberGuesser
 NumberGuesser solution
 
-#### Search
+### Search
 Search solution
 
-#### Project work
+### Project work
 Project Work ('ClassRecords') solution
+
+# Java SE basics - Java language elements
+
+## Java Classes
 
 ### Read and write console
 
@@ -80,6 +82,8 @@ Set product (name, price) by request the values from console and store it to obj
 
 #### BankAccounts
 Set two bankAccounts and manipulate balance (deposit, withdraw and transfer between two accounts);
+
+## The building blocks of language
 
 ### Literals and local variables
 
@@ -145,6 +149,8 @@ Requests 5 numbers and displays sum of them
 
 #### Boating
 Requests how many people are want to boat and divides the boats between the groups.
+
+## More complex types
 
 ### Arrays
 
@@ -216,6 +222,8 @@ Role Play game solution
 #### Rounding
 Rounding Anomaly exercise's solution
 
+## Introduction to the world of classes and objects
+
 ### Objects
 
 #### Objects
@@ -261,6 +269,8 @@ References solutions
 
 #### Social network
 Social network solution
+
+## Types and operators
 
 ### Literals
 
@@ -316,6 +326,8 @@ Circle solution
 #### Mathematic example
 Mathematic example solution
 
+## Control structures
+
 ### JUnit
 JUnit solution 
 
@@ -352,10 +364,12 @@ JUnit solution
 #### CSV validation
 'CSV validation' solution
 
-### Exception handling
+### Introduction to exception handling
 
 #### Patient
 'Patient' solution
+
+## String, StringBuilder
 
 ### String basics
 
@@ -407,6 +421,8 @@ Name concatenation ('Stringconcat') solution
 #### PrintFormat
 'PrintFormat' solution
 
+## Programming thesises and other algorithms
+
 ### Summary Algorithm
 
 #### Salesperson
@@ -449,3 +465,14 @@ Name concatenation ('Stringconcat') solution
 
 #### Compute factorial with recursion
 'Factorial' solution
+
+# Java SE basics - Java OO elements
+
+## Attributes and methods
+
+### Immutable objects
+
+#### Space agency
+SpaceAgency.java
+Satellite.java
+CelestialCoordinates.java
