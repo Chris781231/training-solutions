@@ -481,16 +481,23 @@ Name concatenation ('Stringconcat') solution
 ### Immutable objects
 
 #### Space agency
-SpaceAgency.java
-Satellite.java
-CelestialCoordinates.java
+SpaceAgency
+Satellite
+CelestialCoordinates
 
 ### JavaBeans objects
 
 #### Dog class
-java.main.javabeans.kutya.Dog.java
-java.test.javabeans.kutya.DogTest.java
+java.main.javabeans.kutya.Dog
+java.test.javabeans.kutya.DogTest
 
 #### Human class
-java.main.javabeans.ember.Human.java
-java.test.javabeans.ember.HumanTest.java
+java.main.javabeans.ember.Human
+java.test.javabeans.ember.HumanTest
+
+### Methods
+
+#### BodyMass class
+java.main.methodstructure.bodymass.BodyMass
+java.main.methodstructure.bodymass.BmiCategory
+java.test.methodstructure.bodymass.BodyMassTest
