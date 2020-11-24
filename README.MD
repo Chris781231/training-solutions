@@ -510,6 +510,13 @@ java.test.methodstructure.pendrives.PendrivesTest
 
 ### Parameter list with variable length arguments
 
-####  Exam Statistics
+#### Exam Statistics
 java.main.methodvarargs.statisztika.ExamStats<br>
 java.test.methodvarargs.statisztika.ExamStatsTest
+
+### Chaining method calls
+
+#### Robot and its moving
+java.main.methodchain.robot.Robot<br>
+java.main.methodchain.robot.NavigationPoint<br>
+java.test.methodchain.robot.RobotTest
