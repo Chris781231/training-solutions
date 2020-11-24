@@ -481,29 +481,35 @@ Name concatenation ('Stringconcat') solution
 ### Immutable objects
 
 #### Space agency
-SpaceAgency
-Satellite
+SpaceAgency<br>
+Satellite<br>
 CelestialCoordinates
 
 ### JavaBeans objects
 
 #### Dog class
-java.main.javabeans.kutya.Dog
+java.main.javabeans.kutya.Dog<br>
 java.test.javabeans.kutya.DogTest
 
 #### Human class
-java.main.javabeans.ember.Human
+java.main.javabeans.ember.Human<br>
 java.test.javabeans.ember.HumanTest
 
 ### Methods
 
 #### BodyMass class
-java.main.methodstructure.bodymass.BodyMass
-java.main.methodstructure.bodymass.BmiCategory
+java.main.methodstructure.bodymass.BodyMass<br>
+java.main.methodstructure.bodymass.BmiCategory<br>
 java.test.methodstructure.bodymass.BodyMassTest
 
 #### Pendrives class
-java.main.methodstructure.pendrives.Pendrive
-java.main.methodstructure.pendrives.Pendrives
-java.test.methodstructure.pendrives.PendriveTest
+java.main.methodstructure.pendrives.Pendrive<br>
+java.main.methodstructure.pendrives.Pendrives<br>
+java.test.methodstructure.pendrives.PendriveTest<br>
 java.test.methodstructure.pendrives.PendrivesTest
+
+### Parameter list with variable length arguments
+
+####  Exam Statistics
+java.main.methodvarargs.statisztika.ExamStats<br>
+java.test.methodvarargs.statisztika.ExamStatsTest
