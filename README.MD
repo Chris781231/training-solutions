@@ -39,6 +39,14 @@ Search solution
 ### Project work
 Project Work ('ClassRecords') solution
 
+## Week05
+
+### Week05d02
+
+#### ChangeLetter
+main.java.week05d02.ChangeLetter.java
+test.java.week05d02.ChangeLetterTest.java
+
 # Java SE basics - Java language elements
 
 ## Java Classes
@@ -476,3 +484,9 @@ Name concatenation ('Stringconcat') solution
 SpaceAgency.java
 Satellite.java
 CelestialCoordinates.java
+
+### JavaBeans objects
+
+#### Dog class
+java.main.javabeans.kutya.Dog.java
+java.test.javabeans.kutya.DogTest.java
