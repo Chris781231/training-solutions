@@ -43,12 +43,9 @@ public class Time {
     }
 
     public boolean isEqual(int hours, int minutes, int seconds) {
-        if (this.hours == hours &&
+        return this.hours == hours &&
                 this.minutes == minutes &&
-                this.seconds == seconds) {
-            return true;
-        }
-        return false;
+                this.seconds == seconds;
     }
 
     public boolean isEqual(Time time) {
@@ -56,12 +53,9 @@ public class Time {
     }
 
     public boolean isEarlier(int hours, int minutes, int seconds) {
-        if ((this.hours < hours) ||
+        return (this.hours < hours) ||
                 (this.hours == hours && this.minutes < minutes) ||
-                (this.hours == hours && this.minutes == minutes && this.seconds < seconds)) {
-            return true;
-        }
-        return false;
+                (this.hours == hours && this.minutes == minutes && this.seconds < seconds);
     }
 
     public boolean isEarlier(Time time) {
