@@ -540,3 +540,11 @@ java.main.methodoverloading.time.ListOfGoodPubs<br>
 java.test.methodoverloading.time.TimeTest<br>
 java.test.methodoverloading.time.PubTest<br>
 java.test.methodoverloading.time.ListOfGoodPubsTest
+
+### Method parameters and return values
+
+#### Measurement class
+java.main.methodparam.measurement.Measurement<br>
+java.main.methodparam.measurement.ExtremValues<br>
+java.test.methodparam.measurement.Measurement
+
