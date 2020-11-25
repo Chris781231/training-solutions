@@ -548,3 +548,8 @@ java.main.methodparam.measurement.Measurement<br>
 java.main.methodparam.measurement.ExtremValues<br>
 java.test.methodparam.measurement.Measurement
 
+### Static attributes and methods
+
+#### BankTransaction class
+java.main.staticattrmeth.banktrasaction.BankTransaction<br>
+java.test.staticattrmeth.banktrasaction.BankTransactionTest
