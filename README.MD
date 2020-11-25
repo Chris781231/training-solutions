@@ -530,3 +530,13 @@ java.test.methodvarargs.statisztika.ExamStatsTest
 java.main.methodchain.robot.Robot<br>
 java.main.methodchain.robot.NavigationPoint<br>
 java.test.methodchain.robot.RobotTest
+
+### Method overloading
+
+#### Time class
+java.main.methodoverloading.time.Time<br>
+java.main.methodoverloading.time.Pub<br>
+java.main.methodoverloading.time.ListOfGoodPubs<br>
+java.test.methodoverloading.time.TimeTest<br>
+java.test.methodoverloading.time.PubTest<br>
+java.test.methodoverloading.time.ListOfGoodPubsTest
