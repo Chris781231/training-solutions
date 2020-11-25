@@ -47,6 +47,16 @@ Project Work ('ClassRecords') solution
 main.java.week05d02.ChangeLetter.java
 test.java.week05d02.ChangeLetterTest.java
 
+### Week05d03
+
+#### Mid-level
+main.java.week05d03.ListCounter
+test.java.week05d03.ListCounterTest
+
+#### Senior
+main.java.week05d03.UserValidator
+test.java.week05d03.UserValidatorTest
+
 # Java SE basics - Java language elements
 
 ## Java Classes
