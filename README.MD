@@ -580,5 +580,6 @@ test.java.methodpass.HeadQuarter
 ### Default and parameterless constructor
 
 #### SimpleDate class
+main.java.defaultconstructor.simpledate.SimpleDateTemp<br>
 main.java.defaultconstructor.simpledate.SimpleDate<br>
 test.java.defaultconstructor.simpledate.SimpleDateTest
