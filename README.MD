@@ -583,3 +583,7 @@ test.java.methodpass.HeadQuarter
 main.java.defaultconstructor.simpledate.SimpleDateTemp<br>
 main.java.defaultconstructor.simpledate.SimpleDate<br>
 test.java.defaultconstructor.simpledate.SimpleDateTest
+
+#### SimpleDateFormatter class
+main.java.defaultconstructor.simpledateformatter.SimpleDateFormatter<br>
+test.java.defaultconstructor.simpledateformatter.SimpleDateFormatterTest
