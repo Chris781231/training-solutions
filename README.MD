@@ -568,7 +568,17 @@ main.java.staticattrmeth.banktrasaction.BankTransaction<br>
 test.java.staticattrmeth.banktrasaction.BankTransactionTest
 
 ### Value parameter transfer
+
+#### Troopers
 main.java.methodpass.HeadQuarter<br>
 main.java.methodpass.Position<br>
 main.java.methodpass.Trooper<br>
 test.java.methodpass.HeadQuarter
+
+## Constructors and initializators
+
+### Default and parameterless constructor
+
+#### SimpleDate class
+main.java.defaultconstructor.simpledate.SimpleDate<br>
+test.java.defaultconstructor.simpledate.SimpleDateTest
