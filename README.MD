@@ -44,18 +44,31 @@ Project Work ('ClassRecords') solution
 ### Week05d02
 
 #### ChangeLetter
-main.java.week05d02.ChangeLetter.java
+main.java.week05d02.ChangeLetter.java<br>
 test.java.week05d02.ChangeLetterTest.java
 
 ### Week05d03
 
 #### Mid-level
-main.java.week05d03.ListCounter
+main.java.week05d03.ListCounter<br>
 test.java.week05d03.ListCounterTest
 
 #### Senior
-main.java.week05d03.UserValidator
+main.java.week05d03.UserValidator<br>
 test.java.week05d03.UserValidatorTest
+
+### Week05d04
+
+#### Mid-level
+main.java.week05d04.midlevel.Product<br>
+main.java.week05d04.midlevel.Store<br>
+test.java.week05d04.midlevel.ProductTest<br>
+test.java.week05d04.midlevel.StoreTest
+
+#### Senior
+main.java.week05d04.senior.Product<br>
+main.java.week05d04.senior.Currency<br>
+test.java.week05d04.senior.ProductTest
 
 # Java SE basics - Java language elements
 
