@@ -511,58 +511,64 @@ CelestialCoordinates
 ### JavaBeans objects
 
 #### Dog class
-java.main.javabeans.kutya.Dog<br>
-java.test.javabeans.kutya.DogTest
+main.java.javabeans.kutya.Dog<br>
+test.java.javabeans.kutya.DogTest
 
 #### Human class
-java.main.javabeans.ember.Human<br>
-java.test.javabeans.ember.HumanTest
+main.java.javabeans.ember.Human<br>
+test.java.javabeans.ember.HumanTest
 
 ### Methods
 
 #### BodyMass class
-java.main.methodstructure.bodymass.BodyMass<br>
-java.main.methodstructure.bodymass.BmiCategory<br>
-java.test.methodstructure.bodymass.BodyMassTest
+main.java.methodstructure.bodymass.BodyMass<br>
+main.java.methodstructure.bodymass.BmiCategory<br>
+test.java.methodstructure.bodymass.BodyMassTest
 
 #### Pendrives class
-java.main.methodstructure.pendrives.Pendrive<br>
-java.main.methodstructure.pendrives.Pendrives<br>
-java.test.methodstructure.pendrives.PendriveTest<br>
-java.test.methodstructure.pendrives.PendrivesTest
+main.java.methodstructure.pendrives.Pendrive<br>
+main.java.methodstructure.pendrives.Pendrives<br>
+test.java.methodstructure.pendrives.PendriveTest<br>
+test.java.methodstructure.pendrives.PendrivesTest
 
 ### Parameter list with variable length arguments
 
 #### Exam Statistics
-java.main.methodvarargs.statisztika.ExamStats<br>
-java.test.methodvarargs.statisztika.ExamStatsTest
+main.java.methodvarargs.statisztika.ExamStats<br>
+test.java.methodvarargs.statisztika.ExamStatsTest
 
 ### Chaining method calls
 
 #### Robot and its moving
-java.main.methodchain.robot.Robot<br>
-java.main.methodchain.robot.NavigationPoint<br>
-java.test.methodchain.robot.RobotTest
+main.java.methodchain.robot.Robot<br>
+main.java.methodchain.robot.NavigationPoint<br>
+test.java.methodchain.robot.RobotTest
 
 ### Method overloading
 
 #### Time class
-java.main.methodoverloading.time.Time<br>
-java.main.methodoverloading.time.Pub<br>
-java.main.methodoverloading.time.ListOfGoodPubs<br>
-java.test.methodoverloading.time.TimeTest<br>
-java.test.methodoverloading.time.PubTest<br>
-java.test.methodoverloading.time.ListOfGoodPubsTest
+main.java.methodoverloading.time.Time<br>
+main.java.methodoverloading.time.Pub<br>
+main.java.methodoverloading.time.ListOfGoodPubs<br>
+test.java.methodoverloading.time.TimeTest<br>
+test.java.methodoverloading.time.PubTest<br>
+test.java.methodoverloading.time.ListOfGoodPubsTest
 
 ### Method parameters and return values
 
 #### Measurement class
-java.main.methodparam.measurement.Measurement<br>
-java.main.methodparam.measurement.ExtremValues<br>
-java.test.methodparam.measurement.Measurement
+main.java.methodparam.measurement.Measurement<br>
+main.java.methodparam.measurement.ExtremValues<br>
+test.java.methodparam.measurement.Measurement
 
 ### Static attributes and methods
 
 #### BankTransaction class
-java.main.staticattrmeth.banktrasaction.BankTransaction<br>
-java.test.staticattrmeth.banktrasaction.BankTransactionTest
+main.java.staticattrmeth.banktrasaction.BankTransaction<br>
+test.java.staticattrmeth.banktrasaction.BankTransactionTest
+
+### Value parameter transfer
+main.java.methodpass.HeadQuarter<br>
+main.java.methodpass.Position<br>
+main.java.methodpass.Trooper<br>
+test.java.methodpass.HeadQuarter
