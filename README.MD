@@ -591,9 +591,17 @@ test.java.defaultconstructor.simpledateformatter.SimpleDateFormatterTest
 ### Constructor overloading
 
 #### SimpleTime class
-main.java.constructoroverloading.simpletime.SimpleTime
+main.java.constructoroverloading.simpletime.SimpleTime<br>
 test.java.constructoroverloading.simpletime.SimpleTimeTest
 
 #### BusTimeTable class
-main.java.constructoroverloading.bustimetable.BusTimeTable
+main.java.constructoroverloading.bustimetable.BusTimeTable<br>
 test.java.constructoroverloading.bustimetable.BusTimeTableTest.java
+
+### Initializer
+
+#### CreditCard class
+main.java.initializer.creditcard.CreditCard<br>
+main.java.initializer.creditcard.Currency<br>
+main.java.initializer.creditcard.Rate<br>
+test.java.initializer.creditcard.CreditCardTest
