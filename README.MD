@@ -70,6 +70,12 @@ main.java.week05d04.senior.Product<br>
 main.java.week05d04.senior.Currency<br>
 test.java.week05d04.senior.ProductTest
 
+### Week05d05
+
+#### Mid-level
+main.java.week05d05.User
+test.java.week05d05.UserTest
+
 # Java SE basics - Java language elements
 
 ## Java Classes
