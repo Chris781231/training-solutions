@@ -593,3 +593,7 @@ test.java.defaultconstructor.simpledateformatter.SimpleDateFormatterTest
 #### SimpleTime class
 main.java.constructoroverloading.simpletime.SimpleTime
 test.java.constructoroverloading.simpletime.SimpleTimeTest
+
+#### BusTimeTable class
+main.java.constructoroverloading.bustimetable.BusTimeTable
+test.java.constructoroverloading.bustimetable.BusTimeTableTest.java
