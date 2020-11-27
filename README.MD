@@ -73,8 +73,13 @@ test.java.week05d04.senior.ProductTest
 ### Week05d05
 
 #### Mid-level
-main.java.week05d05.User
+main.java.week05d05.User<br>
 test.java.week05d05.UserTest
+
+#### Senior
+main.java.week05d05.senior.Playlist<br>
+main.java.week05d05.senior.Song<br>
+test.java.week05d05.senior.PlaylistTest<br>
 
 # Java SE basics - Java language elements
 
