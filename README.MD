@@ -587,3 +587,9 @@ test.java.defaultconstructor.simpledate.SimpleDateTest
 #### SimpleDateFormatter class
 main.java.defaultconstructor.simpledateformatter.SimpleDateFormatter<br>
 test.java.defaultconstructor.simpledateformatter.SimpleDateFormatterTest
+
+### Constructor overloading
+
+#### SimpleTime class
+main.java.constructoroverloading.simpletime.SimpleTime
+test.java.constructoroverloading.simpletime.SimpleTimeTest
