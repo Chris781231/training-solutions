@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Playlist {
 
-    List<Song> songs = new ArrayList<>();
+    private final List<Song> songs;
 
     public Playlist(List<Song> songs) {
         this.songs = songs;

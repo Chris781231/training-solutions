@@ -15,6 +15,8 @@ class PlaylistTest {
         pl.addSong(new Song("Cry Baby",238, "Janis Joplin"));
         pl.addSong(new Song("Don't cry", 314,"Guns'N'Roses"));
         assertEquals("Janis Joplin - Cry Baby (3:58)\nGuns'N'Roses - Don't cry (5:14)\n", pl.toString());
+
+        assertEquals("[Guns'N'Roses - Don't cry (5:14)]", pl.findByLengthGreaterThan(5).toString());
     }
 
 
