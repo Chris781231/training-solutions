@@ -616,3 +616,11 @@ main.java.initializer.creditcard.CreditCard<br>
 main.java.initializer.creditcard.Currency<br>
 main.java.initializer.creditcard.Rate<br>
 test.java.initializer.creditcard.CreditCardTest
+
+## Inheritance
+
+### Inheritance
+
+#### Person, Employee, Boss, BigBoss classes
+main.java.introinheritance.personemployeeboss package<br>
+test.java.introinheritance.personemployeeboss package
