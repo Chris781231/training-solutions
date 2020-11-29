@@ -624,3 +624,7 @@ test.java.initializer.creditcard.CreditCardTest
 #### Person, Employee, Boss, BigBoss classes
 main.java.introinheritance.personemployeeboss package<br>
 test.java.introinheritance.personemployeeboss package
+
+#### Item, Basket, ShoppingBasket classes
+main.java.introinheritance.itembasketshoppingbasket package<br>
+test.java.introinheritance.itembasketshoppingbasket package
