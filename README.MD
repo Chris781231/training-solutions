@@ -628,3 +628,9 @@ test.java.introinheritance.personemployeeboss package
 #### Item, Basket, ShoppingBasket classes
 main.java.introinheritance.itembasketshoppingbasket package<br>
 test.java.introinheritance.itembasketshoppingbasket package
+
+### the relationship between constructors and inheritance
+
+#### Car, Jeep classes
+main.java.inheritanceconstructor.carjeep package<br>
+test.java.inheritanceconstructor.carjeep package
