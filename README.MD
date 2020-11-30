@@ -656,3 +656,9 @@ test.java.inheritanceconstructor.coursefacility package
 #### Book, Beer, SimpleBag classes
 main.java.objectclass.simplebag package<br>
 test.java.objectclass.simplebag package
+
+### Inheritance of attributes
+
+#### Book, ShippedBook classes
+main.java.inheritanceattributes.bookshippedbook package<br>
+test.java.inheritanceattributes.bookshippedbook package
