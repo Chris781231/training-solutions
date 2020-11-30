@@ -650,3 +650,9 @@ test.java.inheritanceconstructor.carjeep package
 #### Course, Facility, Room, ClassRoom classes
 main.java.inheritanceconstructor.coursefacility package<br> 
 test.java.inheritanceconstructor.coursefacility package 
+
+### Object root class
+
+#### Book, Beer, SimpleBag classes
+main.java.objectclass.simplebag package<br>
+test.java.objectclass.simplebag package
