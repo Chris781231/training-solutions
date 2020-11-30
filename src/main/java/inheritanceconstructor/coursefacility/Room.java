@@ -10,6 +10,10 @@ public class Room {
         this.capacity = capacity;
     }
 
+    public String getLocation() {
+        return location;
+    }
+
     public int getCapacity() {
         return capacity;
     }

@@ -646,3 +646,7 @@ test.java.introinheritance.itembasketshoppingbasket package
 #### Car, Jeep classes
 main.java.inheritanceconstructor.carjeep package<br>
 test.java.inheritanceconstructor.carjeep package
+
+#### Course, Facility, Room, ClassRoom classes
+main.java.inheritanceconstructor.coursefacility package<br> 
+test.java.inheritanceconstructor.coursefacility package 
