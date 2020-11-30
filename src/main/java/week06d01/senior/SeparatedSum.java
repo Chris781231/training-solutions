@@ -2,22 +2,21 @@ package week06d01.senior;
 
 public class SeparatedSum {
 
-    public double[] sum(String s) {
+    public SeparatedSumBySign sum(String s) {
         if (!isValid(s)) {
             throw new IllegalArgumentException("The string must not be null or empty!");
         }
 
         double[] floatingNumbers = splitStringToFloatingNumbers(s);
-        double[] separatedSumBySign = new double[2];
+        SeparatedSumBySign separatedSumBySign = new SeparatedSumBySign();
 
         for (double floatingNumber : floatingNumbers) {
             if (floatingNumber > 0) {
-                separatedSumBySign[0] += floatingNumber;
+                separatedSumBySign.addPositiveNum(floatingNumber);
             } else {
-                separatedSumBySign[1] += floatingNumber;
+                separatedSumBySign.addNegativeNum(floatingNumber);
             }
         }
-
 
         return separatedSumBySign;
     }

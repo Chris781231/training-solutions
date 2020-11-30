@@ -18,9 +18,9 @@ class SeparatedSumTest {
     @Test
     void sumTest() {
         s = "100,5;200,4;-300,4;-500,15";
-        double[] sum = new SeparatedSum().sum(s);
-        assertEquals(300.9, sum[0]);
-        assertEquals(-800.55, sum[1]);
+        SeparatedSumBySign sum = new SeparatedSum().sum(s);
+        assertEquals(300.9, sum.getPositiveNum());
+        assertEquals(-800.55, sum.getNegativeNum());
     }
 
     @Test
