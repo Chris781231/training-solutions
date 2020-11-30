@@ -81,6 +81,14 @@ main.java.week05d05.senior.Playlist<br>
 main.java.week05d05.senior.Song<br>
 test.java.week05d05.senior.PlaylistTest<br>
 
+## Week06
+
+### Week06d01
+
+#### Mid-level
+main.java.week06d01.midlevel package<br>
+test.java.week06d01.midlevel package
+
 # Java SE basics - Java language elements
 
 ## Java Classes
