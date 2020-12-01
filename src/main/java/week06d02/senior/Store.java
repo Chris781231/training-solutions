@@ -5,48 +5,28 @@ import java.util.List;
 
 public class Store {
 
-    private final List<Product> products = new ArrayList<>();
-    private List<StoredProductsByCategory> storedProductsByCategoryList;
+    List<Product> products = new ArrayList<>();
+    List<CategoryCounter> categoryCounters;
 
     public void addProduct(Product product) {
         products.add(product);
     }
 
-    public List<StoredProductsByCategory> getProductByCategory() {
-        createStoredProductsByCategory();
-
+    public List<CategoryCounter> getProductByCategory() {
+        categoryCounters = new ArrayList<>();
+        int counter = 0;
         for (Category category : Category.values()) {
-            countProductsByCategory(category);
+            buildNewCategoryCounter(categoryCounters, counter, category);
         }
-        return storedProductsByCategoryList;
+        return categoryCounters;
     }
 
-    private void createStoredProductsByCategory() {
-        storedProductsByCategoryList = new ArrayList<>();
-        for (Category category : Category.values()) {
-            storedProductsByCategoryList.add(new StoredProductsByCategory(category));
-        }
-    }
-
-    private void countProductsByCategory(Category category) {
-        StoredProductsByCategory actualStoredProduct = getActualStoredProduct(category);
-        if (actualStoredProduct == null) {
-            throw new IllegalStateException("Category must not be empty.");
-        }
-
+    private void buildNewCategoryCounter(List<CategoryCounter> categoryCounters, int counter, Category category) {
         for (Product product : products) {
             if (product.getCategory() == category) {
-                actualStoredProduct.addAmount();
+                counter++;
             }
         }
-    }
-
-    private StoredProductsByCategory getActualStoredProduct(Category category) {
-        for (StoredProductsByCategory actualStoredProduct : storedProductsByCategoryList) {
-            if (actualStoredProduct.getCategory() == category) {
-                return actualStoredProduct;
-            }
-        }
-        return null;
+        categoryCounters.add(new CategoryCounter(category, counter));
     }
 }
