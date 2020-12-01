@@ -12,10 +12,6 @@ public class Store {
     }
 
     public int getProductByCategoryName(Category category) {
-
-        if (category == null) {
-            throw new IllegalArgumentException("Invalid category");
-        }
         int count = 0;
 
         for (Product product : products) {
