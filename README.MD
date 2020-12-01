@@ -93,6 +93,12 @@ test.java.week06d01.midlevel package
 main.java.week06d01.senior package<br>
 test.java.week06d01.senior package
 
+### Week06d02
+
+#### Mid-level
+main.java.week06d02.midlevel package<br>
+test.java.week06d02.midlevel package
+
 # Java SE basics - Java language elements
 
 ## Java Classes
