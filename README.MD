@@ -668,3 +668,9 @@ test.java.objectclass.simplebag package
 #### Book, ShippedBook classes
 main.java.inheritanceattributes.bookshippedbook package<br>
 test.java.inheritanceattributes.bookshippedbook package
+
+### Inheritance of methods
+
+#### Product, PackedProduct
+main.java.inheritancemethods.productpackedproduct package<br>
+test.java.inheritancemethods.productpackedproduct package
