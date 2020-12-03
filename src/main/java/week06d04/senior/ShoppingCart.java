@@ -8,18 +8,17 @@ public class ShoppingCart {
     List<Item> items = new ArrayList();
 
     public void addItem(String name, int quantity) {
-        if (isEmpty(name)) {
-            throw new IllegalArgumentException("Invalid name!");
+        if (isEmpty(name) || quantity <= 0) {
+            throw new IllegalArgumentException("One of parameter is invalid!");
         }
-        if (getItem(name) == 0) {
-            items.add(new Item(name, quantity));
-        } else {
-            for (Item item : items) {
-                if (item.getName().equals(name)) {
-                    item.setQuantity(item.getQuantity() + quantity);
-                }
+
+        for (Item item : items) {
+            if (item.getName().equals(name)) {
+                item.setQuantity(item.getQuantity() + quantity);
+                return;
             }
         }
+        items.add(new Item(name, quantity));
     }
 
     private boolean isEmpty(String name) {
