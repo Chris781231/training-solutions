@@ -50,12 +50,12 @@ test.java.week05d02.ChangeLetterTest.java
 ### Week05d03
 
 #### Mid-level
-main.java.week05d03.ListCounter<br>
-test.java.week05d03.ListCounterTest
+main.java.week05d03.midlevel.ListCounter<br>
+test.java.week05d03.midlevel.ListCounterTest
 
 #### Senior
-main.java.week05d03.UserValidator<br>
-test.java.week05d03.UserValidatorTest
+main.java.week05d03.senior.UserValidator<br>
+test.java.week05d03.senior.UserValidatorTest
 
 ### Week05d04
 
@@ -73,8 +73,8 @@ test.java.week05d04.senior.ProductTest
 ### Week05d05
 
 #### Mid-level
-main.java.week05d05.User<br>
-test.java.week05d05.UserTest
+main.java.week05d05.midlevel.User<br>
+test.java.week05d05.midlevel.UserTest
 
 #### Senior
 main.java.week05d05.senior.Playlist<br>

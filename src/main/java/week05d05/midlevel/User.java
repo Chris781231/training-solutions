@@ -1,4 +1,4 @@
-package week05d05;
+package week05d05.midlevel;
 
 public class User {
 
