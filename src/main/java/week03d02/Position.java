@@ -1,4 +1,4 @@
-package week03;
+package week03d02;
 
 public class Position {
 
