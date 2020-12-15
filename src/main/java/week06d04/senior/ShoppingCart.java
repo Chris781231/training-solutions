@@ -12,13 +12,13 @@ public class ShoppingCart {
             throw new IllegalArgumentException("One of parameter is invalid!");
         }
 
-        for (Item item : items) {
-            if (item.getName().equals(name)) {
-                item.setQuantity(item.getQuantity() + quantity);
-                return;
-            }
+        Item item = getItemByName(name);
+
+        if (item == null) {
+            items.add(new Item(name, quantity));
+        } else {
+            item.addQuantity(quantity);
         }
-        items.add(new Item(name, quantity));
     }
 
     private boolean isEmpty(String name) {
@@ -26,12 +26,17 @@ public class ShoppingCart {
     }
 
     public int getItem(String name) {
+        Item item = getItemByName(name);
+        return item == null ? 0 : item.getQuantity();
+    }
+
+    private Item getItemByName(String name) {
         for (Item item : items) {
             if (item.getName().equals(name)) {
-                return item.getQuantity();
+                return item;
             }
         }
-        return 0;
+        return null;
     }
 
     public List<Item> getItems() {
