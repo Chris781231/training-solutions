@@ -14,11 +14,10 @@ public class Subject {
 
     @Override
     public boolean equals(Object o) {
+        if (o == null) {
+            return false;
+        }
         return o instanceof Subject && (((Subject) o).getSubjectName().equals(subjectName));
     }
 
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
 }

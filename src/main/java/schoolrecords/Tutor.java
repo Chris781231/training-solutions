@@ -1,5 +1,6 @@
 package schoolrecords;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Tutor {
@@ -17,7 +18,7 @@ public class Tutor {
     }
 
     public List<Subject> getTaughtSubjects() {
-        return taughtSubjects;
+        return new ArrayList<>(taughtSubjects);
     }
 
     public boolean tutorTeachingSubject(Subject subject) {

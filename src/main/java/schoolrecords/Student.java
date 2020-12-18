@@ -27,33 +27,34 @@ public class Student {
     }
 
     public double calculateAverage() {
+        if (marks.isEmpty()) {
+            return 0;
+        }
         double sum = 0;
-        int count = 0;
 
         for (Mark mark : marks) {
             sum += mark.getMarkType().getValue();
-            count++;
         }
 
-        if (count != 0) {
-            return Math.round((sum / count) * 100.0) / 100.0;
-        }
-        return 0.0;
+        return Math.round((sum / marks.size()) * 100) / 100.0;
     }
 
     public double calculateSubjectAverage(Subject subject) {
+        if (marks.isEmpty()) {
+            return 0;
+        }
         double sum = 0;
-        int count = 0;
+        int counter = 0;
 
         for (Mark mark : marks) {
             if (mark.getSubject().equals(subject)) {
                 sum += mark.getMarkType().getValue();
-                count++;
+                counter++;
             }
         }
 
-        if (count != 0) {
-            return Math.round((sum / count) * 100.0) / 100.0;
+        if (counter != 0) {
+            return Math.round((sum / counter) * 100) / 100.0;
         }
         return 0;
     }
@@ -64,12 +65,10 @@ public class Student {
 
     @Override
     public boolean equals(Object o) {
+        if (o == null) {
+            return false;
+        }
         return o instanceof Student && ((Student) o).getName().equals(name);
-    }
-
-    @Override
-    public int hashCode() {
-        return super.hashCode();
     }
 
     @Override
