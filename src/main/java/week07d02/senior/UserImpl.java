@@ -1,4 +1,4 @@
-package week07d02.senior.subclass;
+package week07d02.senior;
 
 public class UserImpl implements User {
 

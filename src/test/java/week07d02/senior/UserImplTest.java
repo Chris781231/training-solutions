@@ -1,7 +1,6 @@
 package week07d02.senior;
 
 import org.junit.jupiter.api.Test;
-import week07d02.senior.subclass.User;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
