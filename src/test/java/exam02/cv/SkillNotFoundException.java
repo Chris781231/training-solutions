@@ -1,4 +1,7 @@
 package exam02.cv;
 
-public class SkillNotFoundException {
+public class SkillNotFoundException extends RuntimeException {
+
+    public SkillNotFoundException() {
+    }
 }

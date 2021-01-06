@@ -1,14 +1,20 @@
 package exam02.cv;
 
 public class Skill {
-    public Skill(String skill, int level) {
+
+    private final String name;
+    private final int level;
+
+    public Skill(String name, int level) {
+        this.name = name;
+        this.level = level;
     }
 
     public String getName() {
-        return null;
+        return name;
     }
 
     public int getLevel() {
-        return 0;
+        return level;
     }
 }

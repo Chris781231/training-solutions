@@ -3,6 +3,7 @@ package exam02.cv;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CvTest {
 
@@ -33,7 +34,7 @@ public class CvTest {
     @Test
     public void testNotFoundSkill() {
         Cv cv1 = new Cv("John Doe");
-//        assertThrows(SkillNotFoundException.class,
-//                () -> cv1.findSkillLevelByName("programming"));
+        assertThrows(SkillNotFoundException.class,
+                () -> cv1.findSkillLevelByName("programming"));
     }
 }
