@@ -2,7 +2,7 @@ package exam02.photo;
 
 public class Photo implements Qualified {
 
-    private String name;
+    private final String name;
     private Quality quality;
 
     public Photo(String name) {

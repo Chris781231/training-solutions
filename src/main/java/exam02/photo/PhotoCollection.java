@@ -35,12 +35,8 @@ public class PhotoCollection {
 
         for (Photo photo : photos) {
             switch (photo.getQuality()) {
-                case ONE_STAR:
-                    sum += 1;
-                    break;
-                case TWO_STAR:
-                    sum += 2;
-                    break;
+                case ONE_STAR -> sum++;
+                case TWO_STAR -> sum += 2;
             }
         }
 
