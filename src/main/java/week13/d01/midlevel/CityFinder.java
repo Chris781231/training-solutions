@@ -1,4 +1,4 @@
-package week13.d01;
+package week13.d01.midlevel;
 
 import java.io.BufferedReader;
 import java.io.IOException;

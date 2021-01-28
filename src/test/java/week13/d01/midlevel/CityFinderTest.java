@@ -1,8 +1,8 @@
-package week13.d01;
+package week13.d01.midlevel;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CityFinderTest {
 
