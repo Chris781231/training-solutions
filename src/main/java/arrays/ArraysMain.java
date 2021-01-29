@@ -1,6 +1,6 @@
 package arrays;
 
-import arraysofarrays.ArraysOfArraysMain;
+import arrayofarrays.ArrayOfArraysMain;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,7 +19,7 @@ public class ArraysMain {
     }
 
     public static String multiplicationTableAsString(int size) {
-        int[][] mpTable = ArraysOfArraysMain.multiplicationTable(size);
+        int[][] mpTable = ArrayOfArraysMain.multiplicationTable(size);
 
         return Arrays.deepToString(mpTable);
     }
