@@ -576,12 +576,12 @@ test.java.methodchain.robot.RobotTest
 ### Method overloading
 
 #### Time class
-main.java.methoverloading.time.Time<br>
-main.java.methoverloading.time.Pub<br>
-main.java.methoverloading.time.ListOfGoodPubs<br>
-test.java.methoverloading.time.TimeTest<br>
-test.java.methoverloading.time.PubTest<br>
-test.java.methoverloading.time.ListOfGoodPubsTest
+main.java.methodoverloading.time.Time<br>
+main.java.methodoverloading.time.Pub<br>
+main.java.methodoverloading.time.ListOfGoodPubs<br>
+test.java.methodoverloading.time.TimeTest<br>
+test.java.methodoverloading.time.PubTest<br>
+test.java.methodoverloading.time.ListOfGoodPubsTest
 
 ### Method parameters and return values
 
