@@ -1,4 +1,4 @@
-package typeconvertion.whichtype;
+package typeconversion.whichtype;
 
 public class WhichTypeMain {
 

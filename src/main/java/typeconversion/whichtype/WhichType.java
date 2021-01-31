@@ -1,4 +1,4 @@
-package typeconvertion.whichtype;
+package typeconversion.whichtype;
 
 import java.util.ArrayList;
 import java.util.List;

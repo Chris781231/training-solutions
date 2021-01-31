@@ -1,4 +1,4 @@
-package typeconvertion.whichtype;
+package typeconversion.whichtype;
 
 public enum Type {
     BYTE(Byte.MIN_VALUE, Byte.MAX_VALUE),
