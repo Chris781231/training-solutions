@@ -7,29 +7,35 @@ import java.io.InputStreamReader;
 
 public class CityFinder {
 
-    public int getMaxLengthCity(InputStream in) {
+    public String readCitiesFromFile(InputStream in) {
         if (in == null) {
             throw new IllegalArgumentException("file is null");
         }
-        int maxLength = Integer.MIN_VALUE;
+        String maxLength = "";
 
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(in))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                int length = processLine(line);
-                if (length > maxLength) {
-                    maxLength = length;
-                }
-            }
+
+            skipHeader(reader);
+
+            return getMaxLength(maxLength, reader);
+
         } catch (IOException ioe) {
             throw new IllegalStateException("cannot read file", ioe);
         }
-
-        return maxLength;
     }
 
-    private int processLine(String line) {
-        String[] temp = line.split(";");
-        return temp[temp.length - 1].length();
+    private void skipHeader(BufferedReader reader) throws IOException {
+        reader.readLine();
+    }
+
+    private String getMaxLength(String maxLength, BufferedReader reader) throws IOException {
+        String line;
+        while ((line = reader.readLine()) != null) {
+            String[] parts = line.split(";");
+            if (parts[1].length() > maxLength.length()) {
+                maxLength = parts[1];
+            }
+        }
+        return maxLength;
     }
 }
