@@ -1,4 +1,4 @@
-package week14.d01;
+package week14.d01.midlevel;
 
 import org.junit.jupiter.api.Test;
 
