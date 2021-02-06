@@ -10,23 +10,17 @@ import java.util.TreeSet;
 
 public class OrderProcessor {
 
-    public static final String FILENAME = "orders.txt";
-    public static final String SEARCHED_ID = "b341";
-    public static final String SEARCHED_GOODS = "sugar";
+    public static final String ID_ORDERED_GOODS_SEPARATOR = " ";
+    public static final String ORDERED_GOODS_ELEMENTS_SEPARATOR = ",";
+    public static final int INDEX_OF_ID = 0;
+    public static final int INDEX_OF_ORDERED_GOODS = 1;
+
+    public static final int INITIAL_COUNT = 0;
+
     private final Set<Order> orders = new TreeSet<>();
 
-    public static void main(String[] args) {
-        OrderProcessor op = new OrderProcessor();
-        op.readFileFromResources();
-        System.out.println("Orders: " + op.orders + "\n");
-        System.out.println("OrderedGoods for " + SEARCHED_ID.toUpperCase() + ": " + op.getOrderedGoodsById(SEARCHED_ID) + "\n");
-        System.out.println("Count of " + SEARCHED_GOODS + ": " + op.getCountOfGoodsByName(SEARCHED_GOODS) + "\n");
-        System.out.println("Count of " + SEARCHED_ID.toUpperCase() + " order goods: " + op.getOrderedGoodsCountById(SEARCHED_ID) + "\n");
-        System.out.println(op.reportOfOrderedGoods());
-    }
-
-    public void readFileFromResources() {
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(FILENAME)))) {
+    public void readFileFromResources(String path) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(path)))) {
             String line;
             while ((line = br.readLine()) != null) {
                 processLine(line);
@@ -68,24 +62,35 @@ public class OrderProcessor {
         Map<String, Integer> numbersOfGoods = new TreeMap<>();
 
         for (Order order : orders) {
-            for (String elementOfOrderedGoods : order.getOrderedGoods()) {
-                if (!numbersOfGoods.containsKey(elementOfOrderedGoods)) {
-                    numbersOfGoods.put(elementOfOrderedGoods, 1);
-                } else {
-                    int value = numbersOfGoods.get(elementOfOrderedGoods);
-                    numbersOfGoods.put(elementOfOrderedGoods, ++value);
-                }
-            }
+            addCountToOrder(numbersOfGoods, order);
         }
-
 
         return numbersOfGoods;
     }
 
-    private void processLine(String line) {
-        String[] elementOfOrder = line.split(" ");
-        String[] orderedGoods = elementOfOrder[1].split(",");
+    private void addCountToOrder(Map<String, Integer> numbersOfGoods, Order order) {
+        for (String elementOfOrderedGoods : order.getOrderedGoods()) {
+            if (!isExistKey(numbersOfGoods, elementOfOrderedGoods)) {
+                createKey(numbersOfGoods, elementOfOrderedGoods);
+            }
 
-        orders.add(new Order(elementOfOrder[0], orderedGoods));
+            int value = numbersOfGoods.get(elementOfOrderedGoods);
+            numbersOfGoods.put(elementOfOrderedGoods, ++value);
+        }
+    }
+
+    private boolean isExistKey(Map<String, Integer> numbersOfGoods, String elementOfOrderedGoods) {
+        return numbersOfGoods.containsKey(elementOfOrderedGoods);
+    }
+
+    private void createKey(Map<String, Integer> numbersOfGoods, String elementOfOrderedGoods) {
+        numbersOfGoods.put(elementOfOrderedGoods, INITIAL_COUNT);
+    }
+
+    private void processLine(String line) {
+        String[] elementOfOrder = line.split(ID_ORDERED_GOODS_SEPARATOR);
+        String[] orderedGoods = elementOfOrder[INDEX_OF_ORDERED_GOODS].split(ORDERED_GOODS_ELEMENTS_SEPARATOR);
+
+        orders.add(new Order(elementOfOrder[INDEX_OF_ID], orderedGoods));
     }
 }

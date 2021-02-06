@@ -9,12 +9,13 @@ class OrderProcessorTest {
 
     OrderProcessor op = new OrderProcessor();
 
+    public static final String PATH = "orders.txt";
     public static final String SEARCHED_ID = "b341";
     public static final String SEARCHED_GOODS = "sugar";
 
     @BeforeEach
     void setUp() {
-        op.readFileFromResources();
+        op.readFileFromResources(PATH);
     }
 
     @Test
