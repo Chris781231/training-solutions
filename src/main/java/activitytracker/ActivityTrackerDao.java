@@ -8,8 +8,7 @@ import java.util.List;
 
 public class ActivityTrackerDao {
 
-    private final List<Activity> activities = new ArrayList<>();
-    private MariaDbDataSource dataSource;
+    private final MariaDbDataSource dataSource;
 
     public ActivityTrackerDao(MariaDbDataSource dataSource) {
         this.dataSource = dataSource;
@@ -19,7 +18,7 @@ public class ActivityTrackerDao {
         try (
                 Connection conn = dataSource.getConnection();
                 PreparedStatement stmt = conn.prepareStatement("INSERT INTO `activities` (start_time, activity_desc, activity_type) VALUES(?, ?, ?)",
-                        PreparedStatement.RETURN_GENERATED_KEYS)
+                        Statement.RETURN_GENERATED_KEYS)
         ) {
             stmt.setTimestamp(1, Timestamp.valueOf(activity.getStartTime()));
             stmt.setString(2, activity.getDesc());
