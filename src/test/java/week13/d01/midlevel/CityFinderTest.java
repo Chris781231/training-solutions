@@ -9,7 +9,7 @@ class CityFinderTest {
     @Test
     void getMaxLengthCity() {
         CityFinder cityFinder = new CityFinder();
-        String maxLengthCity = cityFinder.readCitiesFromFile(CityFinder.class.getResourceAsStream("/iranyiroszamok-varosok-2021.csv"));
+        String maxLengthCity = cityFinder.readCitiesFromFile(CityFinder.class.getResourceAsStream("/iranyitoszamok-varosok-2021.csv"));
         System.out.println(maxLengthCity);
         assertEquals("Jászfelsőszentgyörgy", maxLengthCity);
     }
