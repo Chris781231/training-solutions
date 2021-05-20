@@ -15,6 +15,7 @@ class NumbersTest {
         Numbers numbers = new Numbers(Arrays.asList(1, 4, 7, 2, -3, 9, -4));
 
         assertEquals(Optional.of(-4), numbers.min());
+
     }
 
     @Test

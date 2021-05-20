@@ -2,6 +2,7 @@ package lambdasstreams.bookstore;
 
 public class Book {
 
+    // címével, kiadási évével, árával, darabszámával
     private String title;
     private int yearOfPublish;
     private int price;
@@ -28,5 +29,15 @@ public class Book {
 
     public int getNumberOfBooks() {
         return numberOfBooks;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", yearOfPublish=" + yearOfPublish +
+                ", price=" + price +
+                ", numberOfBooks=" + numberOfBooks +
+                '}';
     }
 }
